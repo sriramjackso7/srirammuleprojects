@@ -12,7 +12,8 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+		<cloudhub.username>sriramjackso7</cloudhub.username>
+		<cloudhub.password>Sairam123</cloudhub.password>
 		<app.runtime>4.2.1</app.runtime>
 		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	<munit.version>2.2.1</munit.version>
@@ -26,7 +27,24 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				</configuration>
+        <muleVersion>4.2.1</muleVersion>
+        <deploymentType>cloudhub</deploymentType>
+        <applicationName>${project.artifactId}-${project.version}</applicationName>
+        <username>${cloudhub.username}</username>
+        <password>${cloudhub.password}</password>
+        <workerType>Micro</workerType>
+        <redeploy>true</redeploy>
+        <environment>Sandbox</environment>
+    </configuration>
+    <executions>
+        <execution>
+            <id>deploy</id>
+            <phase>deploy</phase>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+        </execution>
+    </executions>
 			</plugin>
 		<plugin>
                 <groupId>com.mulesoft.munit.tools</groupId>
