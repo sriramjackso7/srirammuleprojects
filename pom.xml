@@ -12,9 +12,8 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<cloudhub.username>sriramjackso7</cloudhub.username>
-		<cloudhub.password>Sairam123</cloudhub.password>
-		<cloudhub.application.name>httpsamplejackso</cloudhub.application.name>
+		<cloudhub.username>${cloudhubusername}</cloudhub.username>
+		<cloudhub.password>${cloudhubpassword}</cloudhub.password>
 		<app.runtime>4.2.1</app.runtime>
 		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	<munit.version>2.2.1</munit.version>
@@ -28,25 +27,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<uri>https://anypoint.mulesoft.com</uri>
         <muleVersion>4.2.1</muleVersion>
         <deploymentType>cloudhub</deploymentType>
-        <applicationName>${project.artifactId}-${project.version}</applicationName>
+        <applicationName>httpsamplejacksooh</applicationName>
         <username>${cloudhub.username}</username>
         <password>${cloudhub.password}</password>
         <workerType>Micro</workerType>
         <redeploy>true</redeploy>
         <environment>Sandbox</environment>
-        <cloudHubDeployment>
-            <uri>https://anypoint.mulesoft.com</uri>
-            <muleVersion>4.2.1</muleVersion>
-            <username>sriramjackso7</username>
-            <password>Sairam123</password>
-            <applicationName>httpsamplejackso</applicationName>
-            <environment>Sandbox</environment>
-            <properties>
-                <key>value</key>
-            </properties>
-        </cloudHubDeployment>
         </configuration>
     <executions>
         <execution>
@@ -81,6 +70,13 @@
                     </coverage>
                 </configuration>
             </plugin>
+            <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
         </plugins>
 	</build>
 
