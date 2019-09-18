@@ -1,0 +1,60 @@
+{
+  "runToken": "4e286c69-6af8-4b9e-a6ef-d91db8751f3e",
+  "projectName": "httpsample",
+  "domainLocation": "",
+  "tags": [],
+  "testNames": [],
+  "suitePaths": [
+    "mavenhttpsample-test-suite.xml"
+  ],
+  "allSuitePaths": [
+    "mavenhttpsample-test-suite.xml"
+  ],
+  "skipAfterFailure": false,
+  "notifierConfigurations": [
+    {
+      "clazz": "org.mule.munit.remote.notifiers.ConsoleNotifier",
+      "parameters": [
+        {
+          "name": "runToken",
+          "type": "java.lang.String",
+          "value": "4e286c69-6af8-4b9e-a6ef-d91db8751f3e"
+        }
+      ]
+    }
+  ],
+  "coverageConfiguration": {
+    "runCoverage": false,
+    "randomizeCoveragePort": true,
+    "suitePaths": [
+      "mavenhttpsample-test-suite.xml"
+    ],
+    "ignoredFiles": [],
+    "ignoredFlowNames": []
+  },
+  "containerConfiguration": {
+    "runtimeId": "4.2.1",
+    "product": "MULE",
+    "munitWorkingDirectoryPath": "C:\\Users\\sekarss\\AnypointStudio\\studio-workspace\\httpsample\\target\\munitworkingdir-509832269681300",
+    "log4JConfigurationFilePath": "C:\\Users\\sekarss\\AnypointStudio\\studio-workspace\\httpsample\\target\\test-classes\\log4j2-test.xml",
+    "mavenConfiguration": {
+      "settingsXmlFilePath": "C:\\Users\\sekarss\\.m2\\settings.xml",
+      "globalSettingsXmlFilePath": "C:\\Development\\apache-maven-3.5.0\\bin\\..\\conf\\settings.xml",
+      "mavenRepositoryDirectoryPath": "C:\\Users\\sekarss\\.m2\\repository",
+      "offlineMode": false,
+      "forcePolicyUpdate": true,
+      "ignoreArtifactDescriptorRepositories": false,
+      "remoteRepositories": [
+        {
+          "id": "mulesoft-releases",
+          "url": "https://repository.mulesoft.org/releases/"
+        },
+        {
+          "id": "central",
+          "url": "https://repo.maven.apache.org/maven2"
+        }
+      ]
+    },
+    "serverPluginConfigurations": []
+  }
+}
