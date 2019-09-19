@@ -13,7 +13,8 @@
       "exportedPackages": [],
       "exportedResources": [
         "httpsample.xml",
-        "log4j2.xml"
+        "log4j2.xml",
+        "mule-app.properties"
       ]
     }
   },

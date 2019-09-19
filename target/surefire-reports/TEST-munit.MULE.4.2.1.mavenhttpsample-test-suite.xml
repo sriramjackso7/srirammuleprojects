@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MULE.4.2.1.mavenhttpsample-test-suite" time="8.737" failures="0" errors="0" skipped="0" tests="1">
+  <properties>
+    <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property key="java.vm.version" value="25.131-b11"/>
+    <property key="maven.multiModuleProjectDirectory" value="C:\Users\sekarss\AnypointStudio\studio-workspace\httpsample"/>
+    <property key="java.vm.vendor" value="Oracle Corporation"/>
+    <property key="java.vendor.url" value="http://java.oracle.com/"/>
+    <property key="guice.disable.misplaced.annotation.check" value="true"/>
+    <property key="path.separator" value=";"/>
+    <property key="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property key="file.encoding.pkg" value="sun.io"/>
+    <property key="user.country" value="US"/>
+    <property key="user.script" value=""/>
+    <property key="sun.java.launcher" value="SUN_STANDARD"/>
+    <property key="sun.os.patch.level" value=""/>
+    <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property key="user.dir" value="C:\Users\sekarss\AnypointStudio\studio-workspace\httpsample"/>
+    <property key="java.runtime.version" value="1.8.0_131-b11"/>
+    <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property key="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property key="os.arch" value="amd64"/>
+    <property key="java.io.tmpdir" value="C:\Users\sekarss\AppData\Local\Temp\"/>
+    <property key="line.separator" value="&#xd;&#xa;"/>
+    <property key="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property key="user.variant" value=""/>
+    <property key="os.name" value="Windows 10"/>
+    <property key="classworlds.conf" value="C:\Development\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property key="sun.jnu.encoding" value="Cp1252"/>
+    <property key="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_131\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\tibco\tibrv\8.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win32\bin;C:\Program Files (x86)\Liquid Technologies\Liquid Studio 2018\XmlDataBinder16\Redist16\cpp\win64\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Development\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_131\bin;."/>
+    <property key="maven.conf" value="C:\Development\apache-maven-3.5.0\bin\../conf"/>
+    <property key="java.specification.name" value="Java Platform API Specification"/>
+    <property key="java.class.version" value="52.0"/>
+    <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property key="os.version" value="10.0"/>
+    <property key="library.jansi.path" value="C:\Development\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property key="user.home" value="C:\Users\sekarss"/>
+    <property key="user.timezone" value="America/New_York"/>
+    <property key="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property key="muleDeploy" value="true"/>
+    <property key="file.encoding" value="Cp1252"/>
+    <property key="java.specification.version" value="1.8"/>
+    <property key="java.class.path" value="C:\Development\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property key="user.name" value="SEKARSS"/>
+    <property key="java.vm.specification.version" value="1.8"/>
+    <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package deploy -DmuleDeploy"/>
+    <property key="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property key="sun.arch.data.model" value="64"/>
+    <property key="user.language" value="en"/>
+    <property key="java.specification.vendor" value="Oracle Corporation"/>
+    <property key="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property key="java.vm.info" value="mixed mode"/>
+    <property key="java.version" value="1.8.0_131"/>
+    <property key="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property key="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property key="java.vendor" value="Oracle Corporation"/>
+    <property key="sun.stderr.encoding" value="cp437"/>
+    <property key="maven.home" value="C:\Development\apache-maven-3.5.0\bin\.."/>
+    <property key="file.separator" value="\"/>
+    <property key="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property key="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property key="sun.cpu.endian" value="little"/>
+    <property key="sun.stdout.encoding" value="cp437"/>
+    <property key="sun.desktop" value="windows"/>
+    <property key="sun.cpu.isalist" value="amd64"/>
+    <property key="munit.system.properties.file" value="C:\Users\sekarss\AnypointStudio\studio-workspace\httpsample\target\user.system.properties"/>
+    <property key="org.glassfish.grizzly.DEFAULT_MEMORY_MANAGER" value="org.glassfish.grizzly.memory.HeapMemoryManager"/>
+  </properties>
+  <testcase time="8.679" name="mavenhttpsample-test-suite-httpsampleFlowTest" classname="MULE.4.2.1.mavenhttpsample-test-suite"/>
+</testsuite>
