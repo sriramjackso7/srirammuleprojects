@@ -10,6 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<configuration-properties doc:name="Configuration properties" doc:id="0fb959ee-1750-4e1e-bc18-96e1e734eb7d" file="mule-app.properties" />
 	<flow name="httpsampleFlow" doc:id="bc9e33a2-5b8d-4bd2-8883-c25096cbaeae" >
 		<http:listener doc:name="Listener" doc:id="2df0bec1-dbf3-4089-86e1-c3aadfe9b5f4" config-ref="HTTP_Listener_config" path="/test/check" allowedMethods="POST" outputMimeType="application/xml"/>
+		<logger level="INFO" doc:name="Logger" doc:id="1251968f-8f76-4ea4-aeed-31da3e751609" message="#[payload]"/>
 		<logger level="INFO" doc:name="Logger" doc:id="15e838e0-2a9b-46be-9017-b997fbdf09bf" message="#[payload]"/>
 		<set-payload value='#["Hi Sriram"]' doc:name="Set Payload" doc:id="3929b92a-e24d-4c51-bebe-ac13804ccb11" />
 	</flow>
