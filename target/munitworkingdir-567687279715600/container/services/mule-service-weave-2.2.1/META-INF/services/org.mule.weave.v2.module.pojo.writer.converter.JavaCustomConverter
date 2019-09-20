@@ -1,4 +1,0 @@
-org.mule.weave.v2.el.converter.FromCursorStreamProviderConverter
-org.mule.weave.v2.el.converter.FromCursorIteratorProviderConverter
-org.mule.weave.v2.el.converter.TypedValueConverter
-org.mule.weave.v2.el.converter.ToCursorStreamProviderConverter
